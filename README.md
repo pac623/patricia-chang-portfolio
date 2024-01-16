@@ -1,2 +1,13 @@
-# patricia-chang-portfolio
-A non-exhaustive portfolio of projects I have completed.
+# About Me
+🚧 UNDER CONSTRUCTION
+
+# Skills
+
+# Certifications
+
+# Education
+
+# Work Experience 
+
+# Organizations 
+

@@ -3,6 +3,8 @@
 
 # Skills
 
+# Past Projects
+
 # Certifications
 
 # Education

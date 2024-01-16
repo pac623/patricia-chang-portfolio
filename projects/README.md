@@ -1,5 +1,8 @@
 # Projects
 This folder showcases projects I have completed.
+
+🚧 UNDER CONSTRUCTION 
+
 ## Web Development
 * [Project 1](project_1)
 * [Project 2](project_2)

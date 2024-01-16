@@ -3,6 +3,12 @@
 
 # Skills
 
+## Professional
+
+## Digital Tools 
+
+## Other
+
 # Past Projects
 
 # Certifications

@@ -89,8 +89,11 @@ My projects can be accessed in the [Projects](https://github.com/pac623/patricia
 
 # Work Experience 
 
-* __Independent Consultant (Programs, Projects, & People)__ | Tag1, Remote - 2023-Present
+* __Independent Consultant (Programs, Projects, & People)__ | [Tag1](https://www.tag1consulting.com), Remote - 2023-Present
 
+Providing an extensive wealth of senior-level expertise and insights, strategic guidance, and direction to global enterprises in the realm of project management and diverse support functions throughout the entire project life cycle. Steering global organizations through the intricacies of complex technical projects, with a specialized focus on mitigating risks, and ensuring successful execution of initiatives and the attainment of overarching organizational goals.
+
+_Notable Clients: Albemarle, Catalist, Montefiore_ 
 
 * __Program Manager, Sr Project Manager__ | [FFW](www.ffw.com), Remote — 2020-2023
 

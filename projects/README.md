@@ -1,7 +1,7 @@
 # Notable Projects
 This folder showcases some of the projects I have completed.
 
-## Web Development
+## 🖥️ Web Development
 
 ✅ __NBC Universal, Telemundo__ | 2021
 
@@ -28,7 +28,7 @@ Technology consolidation and migration to one central CMS platform (Drupal 9) wh
 Complete re-platform to D8 with 6 fully translated language versions of their primary site.
 
 
-## Web Design
+## 🖍️ Web Design
 
 ✅ __National Kidney Foundation__ | 2022
 
@@ -63,7 +63,7 @@ Full strategic redesign to architect a cohesive, UX driven website on Hubspot fo
 Full-service redesign, inclusive of branding and inbound marketing strategy leveraging Hubspot.
 
 
-## Web Localization
+## 🌎 Web Localization
 
 Turn-key multilingual web and digital content localization solution using AI-driven Adaptive Translation technology for all online content management platforms and on-demand local translation teams. 
 
@@ -91,6 +91,27 @@ Turn-key multilingual web and digital content localization solution using AI-dri
 
 * English, French-Canadian, French, followed by 27+ Global Languages
 
+## 🤝 Training & Culture
+
+✅ __Mediacurrent__ | 2019
+
+* Initiated and facilitated knowledge-sharing sessions across departments, enabling teams to showcase best practices and fostering cross-departmental collaboration. Shared expertise on positive work culture practices by speaking at industry events.
+
+✅ __Motionpoint__ | 2019
+
+* Developed and implemented a streamlined cross-collaborative process and relative digital tools, enhancing project manager visibility, control, and communication with global teams.
+
+✅ __Apple Inc__ | 2012-2014
+
+* Created and implemented a new employee onboarding program for all team members moving into the Business department. This included shadowing, reverse-shadowing, and evaluation periods leveraging Net Promotor scores and Fearless Feedback, and was widely used in the Southeast and Northeast regions. 
+
+✅ __Royal Blues Hotel__ | 2014-2015
+
+* Developed and launched a comprehensive fine dining and luxury hospitality training program for new staff. Additionally, implemented an efficient payroll system and competitive benefits package to attract top talent.
+
+✅ __Zendo (now Alarm.com)__ | 2015
+
+* Established a customer service team from scratch before moving into the R&D department, leveraging agile methodologies to streamline processes. Implemented systems like Centercode to create a comprehensive workflow for beta testers, facilitating feedback loops for continuous improvement by both development teams and the customer service team.
 
 ## Authoring
 

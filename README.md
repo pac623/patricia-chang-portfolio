@@ -1,5 +1,6 @@
 # About Me
 I build the systems that high-performing organizations rely on.
+
 My work centers on operationalizing strategy—transforming ambiguity into structure and siloed functions into aligned execution. I lead multimillion-dollar programs with a focus on sustainable delivery, scalable tooling, and strong team culture.
 
 I’ve developed global onboarding systems from the ground up, scaled delivery frameworks inside fast-moving tech environments, and architected cross-functional collaboration models that survive real-world conditions. Most recently, I’ve been leading emerging technology upskilling initiatives and internal knowledge-sharing programs that accelerate technical adoption without sacrificing quality or ethics.

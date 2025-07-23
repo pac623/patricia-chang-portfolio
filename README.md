@@ -1,22 +1,32 @@
 # About Me
-I am a versatile leader based in Las Vegas, Nevada, with a proven track record in project and program management across diverse industries. With a keen eye for optimization, I excel in steering portfolios and delivering impactful results. My expertise lies in strategic planning, risk management, and fostering high-performance teams.
+I build the systems that high-performing organizations rely on.
+My work centers on operationalizing strategy—transforming ambiguity into structure and siloed functions into aligned execution. I lead multimillion-dollar programs with a focus on sustainable delivery, scalable tooling, and strong team culture.
+
+I’ve developed global onboarding systems from the ground up, scaled delivery frameworks inside fast-moving tech environments, and architected cross-functional collaboration models that survive real-world conditions. Most recently, I’ve been leading emerging technology upskilling initiatives and internal knowledge-sharing programs that accelerate technical adoption without sacrificing quality or ethics.
+
+I approach every challenge with humility, structure, and intention—because the best outcomes happen when people feel seen, systems are aligned, and strategy becomes actionable.
 
 # Skills
 
 ## Professional
 * Project Management
-* Program Management
+* Program Strategy
 * People Management
 * Portfolio Management
+* Enterprise Delivery
 * Strategic Planning
 * Risk Management
 * Client Relationship Management
 * Budget Management
 * Operations Optimization
-* Training & Mentoring 
+* Training & Mentoring
+* Artificial Intelligence
+* Virtual and Augmented Reality 
 
 ## Digital Tools 
-### Project & Program Management
+
+
+### Project Delivery 
 * Jira / Confluence
 * Asana
 * Basecamp
@@ -24,20 +34,20 @@ I am a versatile leader based in Las Vegas, Nevada, with a proven track record i
 * Smartsheet 
 * Monday.com
 * Trello
+* Notion
 
 ### Communication & Collaboration
 * Slack
 * MS Teams
 * Zoom
 * Cisco Webex
+* Sharepoint
 
 ### Productivity
 * Google Workspace
-* Apple iWork 
+* Apple  
 * Microsoft Office
-* Dropbox
 * Evernote
-* Notion 
 
 ### Design & Development
 * Figma
@@ -52,6 +62,7 @@ I am a versatile leader based in Las Vegas, Nevada, with a proven track record i
 * Hubspot
 * Buffer
 * Pardot
+* Zapier
 
 ### CMS's and E-Commerce Platforms
 * WordPress
@@ -64,7 +75,28 @@ I am a versatile leader based in Las Vegas, Nevada, with a proven track record i
 * HotJar
 
 # Past Projects
-My projects can be accessed in the [Projects](https://github.com/pac623/patricia-chang-portfolio/tree/main/projects) folder. 
+
+## Enterprise Web Modernization
+
+* NBCUniversal / Telemundo	Drupal 7 to headless Drupal 9 replatform with multilingual support and content migration.	| Program Manager
+* Princeton Alumni	| Merged 3 standalone university sites into a single Drupal 9 platform.	| Sr Project Manager
+* Prologis | Full redesign with deep Google Analytics integration and data layer customization. | Sr Project Manager
+* PwC & Penn State	| Major tech consolidation + API integrations, CMS migration, and Drupal 9 upgrades.	| Sr Project Manager
+
+## Global Localization & Scale
+
+* Royal Caribbean	| Oversaw website translation/localization in 26+ languages.
+* Verizon Wireless	| Dual-language support (EN/ES), platform-wide localization.
+* Thermon, VITAS, Fastenal	| Managed multilingual rollout (5–27+ languages) using AI-assisted workflows.
+
+## Thought Leadership + Strategy
+
+* Metaverse Strategist @ ARPost.co: Authored consumer and enterprise XR features from 2016–2021.
+* VR/AR Association: Chapter Chair, Education – Led global best practices in immersive learning.
+* Internal AI Enablement @ Tag1: Currently leading developer workshops and product roadmap sessions to align delivery and upskilling with ethical AI practices.
+
+
+All my projects can be accessed in the [Projects](https://github.com/pac623/patricia-chang-portfolio/tree/main/projects) folder. 
 
 # Professional Certifications
 
@@ -89,11 +121,11 @@ My projects can be accessed in the [Projects](https://github.com/pac623/patricia
 
 # Work Experience 
 
-* __Independent Consultant (Programs, Projects, & People)__ | [Tag1](https://www.tag1consulting.com), Remote - 2023-Present
+* __Sr Project Management Consultant (Programs, Projects, & People)__ | [Tag1](https://www.tag1consulting.com), Remote - 2023-Present
 
 Providing an extensive wealth of senior-level expertise and insights, strategic guidance, and direction to global enterprises in the realm of project management and diverse support functions throughout the entire project life cycle. Steering global organizations through the intricacies of complex technical projects, with a specialized focus on mitigating risks, and ensuring successful execution of initiatives and the attainment of overarching organizational goals.
 
-_Notable Clients: Albemarle, Catalist, Montefiore_ 
+_Notable Clients: Albemarle, Catalist, Montefiore-Einstein, SciSure, Westat_ 
 
 * __Program Manager, Sr Project Manager__ | [FFW](www.ffw.com), Remote — 2020-2023
 

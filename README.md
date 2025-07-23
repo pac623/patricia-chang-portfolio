@@ -75,7 +75,7 @@ I approach every challenge with humility, structure, and intention—because the
 * Google Data Studio
 * HotJar
 
-# Past Projects
+# Highlighted Past Projects
 
 ## Enterprise Web Modernization
 

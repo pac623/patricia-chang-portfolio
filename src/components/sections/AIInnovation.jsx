@@ -166,7 +166,7 @@ function AIInnovation() {
                     <div className="text-xs text-secondary font-body">less reporting time</div>
                   </div>
                   <div>
-                    <div className="text-lg font-heading font-bold text-accent">2 weeks</div>
+                    <div className="text-lg font-heading font-bold text-accent">1 week</div>
                     <div className="text-xs text-secondary font-body">built by a PM</div>
                   </div>
                 </div>
@@ -257,7 +257,7 @@ function AIInnovation() {
                     <div className="text-xs text-secondary font-body">less scope creep</div>
                   </div>
                   <div>
-                    <div className="text-lg font-heading font-bold text-accent">3 weeks</div>
+                    <div className="text-lg font-heading font-bold text-accent">1.5 weeks</div>
                     <div className="text-xs text-secondary font-body">built by a PM</div>
                   </div>
                 </div>

@@ -1,5 +1,6 @@
 import Navigation from './components/Navigation'
 import Hero from './components/sections/Hero'
+import ToolsTechnologies from './components/sections/ToolsTechnologies';
 import WhatIDo from './components/sections/WhatIDo';
 import AIInnovation from './components/sections/AIInnovation'
 import Transformations from './components/sections/Transformations'
@@ -18,6 +19,9 @@ function App() {
 
         {/* What I do Section */}
        <WhatIDo />
+
+       {/* Tools & Tech Section */}
+       <ToolsTechnologies />
 
         {/* AI Innovation Section */}
         <AIInnovation />

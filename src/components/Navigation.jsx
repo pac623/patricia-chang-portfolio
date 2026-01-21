@@ -23,10 +23,10 @@ function Navigation() {
 
   const navLinks = [
     { label: 'What I Do', id: 'what-i-do' },
+    { label: 'Tools', id: 'tools' },
     { label: 'Projects', id: 'ai-innovation' },
     { label: 'Impact', id: 'transformations' },
     { label: 'Enterprise', id: 'enterprise-projects' },
-    { label: 'Leadership', id: 'thought-leadership' },
     { label: 'About', id: 'about' },
     { label: 'Contact', id: 'contact' },
   ];
@@ -40,7 +40,6 @@ function Navigation() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo/Name */}
         <button
           onClick={() => scrollToSection('hero')}
           className="text-xl font-heading font-bold text-navy hover:text-accent transition-colors"
@@ -48,7 +47,6 @@ function Navigation() {
           Patricia Chang
         </button>
 
-        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <button
@@ -61,7 +59,6 @@ function Navigation() {
           ))}
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           className="md:hidden text-navy"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -70,7 +67,6 @@ function Navigation() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 px-6 py-4 space-y-4">
           {navLinks.map((link) => (

@@ -27,10 +27,10 @@ function ThoughtLeadership() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-navy mb-6">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
             Industry Voice & Thought Leadership
           </h2>
-          <p className="text-lg md:text-xl text-navy/80 leading-relaxed max-w-4xl mx-auto">
+          <p className="text-lg md:text-xl text-secondary leading-relaxed max-w-4xl mx-auto font-body">
             Beyond delivery, I've shaped industry conversations around emerging technology adoption and organizational transformation.
           </p>
         </div>
@@ -45,13 +45,13 @@ function ThoughtLeadership() {
                 className="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border-t-4 border-accent border border-gray-100"
               >
                 <Icon className="w-12 h-12 text-accent mb-4" />
-                <h3 className="text-2xl font-bold text-primary mb-2">
+                <h3 className="text-xl font-heading font-bold text-primary mb-2">
                   {achievement.title}
                 </h3>
-                <p className="text-secondary font-semibold mb-4">
+                <p className="text-accent font-semibold mb-4 font-body text-sm">
                   {achievement.role}
                 </p>
-                <p className="text-navy/80 leading-relaxed">
+                <p className="text-secondary leading-relaxed font-body">
                   {achievement.description}
                 </p>
               </div>

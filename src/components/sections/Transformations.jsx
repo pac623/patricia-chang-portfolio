@@ -3,10 +3,34 @@ import { AlertTriangle, Hammer, TrendingUp } from 'lucide-react';
 function Transformations() {
   const transformations = [
     {
+      company: "Tag1 Consulting",
+      program: "AI Enablement Initiative",
+      role: "Senior Project Manager & AI Solutions Architect",
+      problem: "Organization needed AI training but lacked structured enablement. Team members were curious but didn't know where to start or how to apply AI to their specific domains.",
+      built: "Designed and facilitated AI strategy workshops in partnership with the CEO. Created agendas, content, and hands-on homework so team members could experiment in their own domains. Framework became repeatable for clients: now leading customized workshops for client organizations covering their specific AI needs and safe, ethical implementation.",
+      impact: "Sparked organization-wide AI adoption. Led to 3 years of deep AI learning, building automation, and developing solutions for client challenges. Now a go-to resource for AI enablement across the company and with clients."
+    },
+    {
+      company: "Tag1 Consulting",
+      program: "AI Product Pods",
+      role: "Senior Project Manager & AI Solutions Architect",
+      problem: "Need for structured AI integration across the organization, not just ad hoc experimentation but strategic, cross-functional collaboration.",
+      built: "Established AI Product Pods bringing together domain experts to integrate AI into their work and into client solutions and offerings. Team conducts R&D, feasibility and viability studies, pilots, and production implementations.",
+      impact: "Created a repeatable model for AI integration. Cross-functional expertise accelerates innovation while maintaining quality and ethical standards."
+    },
+    {
+      company: "Tag1 Consulting",
+      program: "PMO Governance & Standards",
+      role: "Senior Project Manager",
+      problem: "Fast-growing consultancy, no standardized delivery frameworks. Risk management was reactive. Reporting was inconsistent across global teams.",
+      built: "• PMO playbooks and templates\n• Knowledge systems and documentation standards\n• Governance frameworks as member of PMO Steering Group\n• Delivery standards that scaled across client portfolio",
+      impact: "Portfolio visibility. Consistent frameworks. Proactive risk management became culture."
+    },
+    {
       company: "Apple Inc",
       program: "Regional Onboarding Program",
       role: "Business Relationship Manager",
-      problem: "No structured onboarding. New Business team hires were inconsistent across regions—some ramped in weeks, others took months. No one owned the fix.",
+      problem: "No structured onboarding. New Business team hires were inconsistent across regions, some ramped in weeks, others took months. No one owned the fix.",
       built: "Comprehensive onboarding program: shadowing protocols, reverse-shadowing validation, NPS-based evaluation system. Rolled out across Southeast & Northeast U.S.",
       impact: "Standardized performance. Reduced ramp time. New hires became productive faster, and the framework scaled to other regions."
     },
@@ -14,7 +38,7 @@ function Transformations() {
       company: "Zendo (now Alarm.com)",
       program: "Customer Experience Function",
       role: "Product Manager, Customer Experience",
-      problem: "IoT startup, no support infrastructure. Engineers were fielding customer issues directly—burning time and creating inconsistent responses.",
+      problem: "IoT startup, no support infrastructure. Engineers were fielding customer issues directly, burning time and creating inconsistent responses.",
       built: "• Built CX team from zero\n• Integrated Jira, Zendesk, Centercode for systematic beta testing\n• Created feedback loops so customer insights shaped product decisions\n• Established CX voice at leadership level",
       impact: "Engineering focused on building. Product roadmap became customer-informed. Beta testing became strategic."
     },
@@ -41,14 +65,6 @@ function Transformations() {
       problem: "Boutique luxury property running on manual processes. Payroll errors, inefficient HR, fragmented guest services. Great brand, broken systems.",
       built: "Modernized finance, IT, and HR operations. Fixed what was broken. Partnered with ownership on brand positioning.",
       impact: "Reduced errors. Improved efficiency. Secured recognition in major travel media. Systems that supported high-touch luxury service."
-    },
-    {
-      company: "Tag1",
-      program: "PMO Governance & Standards",
-      role: "Senior Project Manager",
-      problem: "Fast-growing consultancy, no standardized delivery frameworks. Risk management was reactive. Reporting was inconsistent across global teams.",
-      built: "• PMO playbooks and templates\n• Knowledge systems and documentation standards\n• Governance frameworks as member of PMO Steering Group\n• Delivery standards that scaled across client portfolio",
-      impact: "Portfolio visibility. Consistent frameworks. Proactive risk management became culture."
     }
   ];
 
@@ -57,11 +73,11 @@ function Transformations() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-navy mb-6">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
             Systems & Teams Built
           </h2>
-          <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl">
-            I'm a change agent who sees patterns and opportunities that unlock operational efficiency. Throughout my career, I've identified gaps where systems, processes, or teams could work better—and I've built the infrastructure to close them.
+          <p className="text-lg md:text-xl text-secondary leading-relaxed max-w-4xl font-body">
+            I see patterns and opportunities that unlock operational efficiency. Throughout my career, I've identified gaps where systems, processes, or teams could work better, and I've built the infrastructure to close them.
           </p>
         </div>
 
@@ -75,14 +91,14 @@ function Transformations() {
               {/* Header */}
               <div className="mb-6">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-2">
-                  <h3 className="text-2xl font-bold text-primary">
+                  <h3 className="text-2xl font-heading font-bold text-primary">
                     {transformation.company}
                   </h3>
-                  <span className="text-sm text-purple font-medium">
+                  <span className="text-sm text-accent font-medium font-body">
                     {transformation.role}
                   </span>
                 </div>
-                <p className="text-lg font-semibold text-navy">
+                <p className="text-lg font-heading font-semibold text-navy">
                   {transformation.program}
                 </p>
               </div>
@@ -92,10 +108,10 @@ function Transformations() {
                 {/* The Problem */}
                 <div>
                   <div className="flex items-center gap-2 mb-2">
-                    <AlertTriangle className="w-5 h-5 text-accent" />
-                    <h4 className="font-bold text-navy">The Problem</h4>
+                    <AlertTriangle className="w-5 h-5 text-secondary" />
+                    <h4 className="font-heading font-bold text-navy">The Problem</h4>
                   </div>
-                  <p className="text-navy/80 leading-relaxed">
+                  <p className="text-secondary leading-relaxed font-body">
                     {transformation.problem}
                   </p>
                 </div>
@@ -103,10 +119,10 @@ function Transformations() {
                 {/* What I Built */}
                 <div>
                   <div className="flex items-center gap-2 mb-2">
-                    <Hammer className="w-5 h-5 text-accent" />
-                    <h4 className="font-bold text-navy">What I Built</h4>
+                    <Hammer className="w-5 h-5 text-secondary" />
+                    <h4 className="font-heading font-bold text-navy">What I Built</h4>
                   </div>
-                  <p className="text-navy/80 leading-relaxed whitespace-pre-line">
+                  <p className="text-secondary leading-relaxed whitespace-pre-line font-body">
                     {transformation.built}
                   </p>
                 </div>
@@ -115,22 +131,15 @@ function Transformations() {
                 <div>
                   <div className="flex items-center gap-2 mb-2">
                     <TrendingUp className="w-5 h-5 text-accent" />
-                    <h4 className="font-bold text-navy">The Impact</h4>
+                    <h4 className="font-heading font-bold text-navy">The Impact</h4>
                   </div>
-                  <p className="text-orange font-bold text-base leading-relaxed">
+                  <p className="text-accent font-semibold text-base leading-relaxed font-body">
                     {transformation.impact}
                   </p>
                 </div>
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Bottom Summary */}
-        <div className="mt-16 text-center">
-          <p className="text-xl text-navy/80 max-w-3xl mx-auto leading-relaxed">
-            Here's what was broken. Here's what I fixed. Here's why it matters.
-          </p>
         </div>
       </div>
     </section>

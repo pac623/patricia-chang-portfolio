@@ -1,5 +1,6 @@
 import Navigation from './components/Navigation'
 import Hero from './components/sections/Hero'
+import WhatIDo from './components/sections/WhatIDo';
 import AIInnovation from './components/sections/AIInnovation'
 import Transformations from './components/sections/Transformations'
 import EnterpriseProjects from './components/sections/EnterpriseProjects'
@@ -14,6 +15,9 @@ function App() {
       <main className="min-h-screen">
         {/* Hero Section */}
         <Hero />
+
+        {/* What I do Section */}
+       <WhatIDo />
 
         {/* AI Innovation Section */}
         <AIInnovation />

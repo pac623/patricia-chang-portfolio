@@ -36,11 +36,11 @@ function Contact() {
     <section id="contact" className="bg-navy py-20 md:py-24 px-6">
       <div className="max-w-4xl mx-auto text-center">
         {/* Section Header */}
-        <h2 className="text-4xl md:text-5xl font-bold text-accent mb-4">
+        <h2 className="text-4xl md:text-5xl font-heading font-bold text-white mb-4">
           Let's Connect
         </h2>
-        <p className="text-xl text-white/80 mb-16 max-w-2xl mx-auto">
-          Open to conversations about operations, innovation, and organizational transformation—particularly complex operational challenges, strategic initiatives, and opportunities to build high-performing teams.
+        <p className="text-xl text-white/70 mb-16 max-w-2xl mx-auto font-body">
+          Whether you're looking for senior leadership, AI strategy and enablement, or someone to help transform how your organization operates, I'd love to hear from you. I'm also excited by roles that don't fit neatly into traditional titles. Because I often don't fit neatly into traditional titles.
         </p>
 
         {/* Contact Methods Grid */}
@@ -50,8 +50,8 @@ function Contact() {
             const content = (
               <>
                 <Icon className="w-6 h-6 text-accent mb-3 mx-auto" />
-                <p className="text-sm text-white/60 mb-1">{method.label}</p>
-                <p className="text-accent font-medium hover:text-primary transition-colors">{method.value}</p>
+                <p className="text-sm text-white/60 mb-1 font-body">{method.label}</p>
+                <p className="text-accent font-medium hover:text-accent/80 transition-colors font-body">{method.value}</p>
               </>
             );
 
@@ -62,7 +62,7 @@ function Contact() {
                   href={method.link}
                   target={method.external ? '_blank' : undefined}
                   rel={method.external ? 'noopener noreferrer' : undefined}
-                  className="bg-white/5 rounded-lg p-6 hover:bg-white/10 transition-all duration-300 hover:scale-105 border border-accent/20 hover:border-accent"
+                  className="bg-white/5 rounded-lg p-6 hover:bg-white/10 transition-all duration-300 hover:scale-105 border border-white/10 hover:border-accent/50"
                 >
                   {content}
                 </a>
@@ -71,7 +71,7 @@ function Contact() {
               return (
                 <div
                   key={index}
-                  className="bg-white/5 rounded-lg p-6 border border-accent/20"
+                  className="bg-white/5 rounded-lg p-6 border border-white/10"
                 >
                   {content}
                 </div>
@@ -82,7 +82,7 @@ function Contact() {
 
         {/* Footer */}
         <div className="pt-8 border-t border-white/10">
-          <p className="text-white/50 text-sm">
+          <p className="text-white/50 text-sm font-body">
             © 2025 Patricia Chang. Portfolio built with AI assistance—because operational leaders build solutions.
           </p>
         </div>

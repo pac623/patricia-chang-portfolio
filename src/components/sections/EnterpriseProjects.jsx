@@ -71,33 +71,33 @@ function EnterpriseProjects() {
   ];
 
   return (
-    <section id="enterprise-projects" className="bg-lightmint py-20 md:py-24 px-6">
+    <section id="enterprise-projects" className="bg-lightgray py-20 md:py-24 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold text-navy mb-6">
+          <h2 className="text-4xl md:text-5xl font-heading font-bold text-navy mb-6">
             Enterprise Digital Transformation
           </h2>
-          <p className="text-lg md:text-xl text-navy/80 leading-relaxed max-w-4xl mx-auto mb-8">
+          <p className="text-lg md:text-xl text-secondary leading-relaxed max-w-4xl mx-auto mb-8 font-body">
             I've directed multi-million-dollar enterprise programs for Fortune 500 clients, managing scope, budgets, and global teams across complex technical migrations and platform consolidations.
           </p>
           
           {/* Stats Bar */}
-          <div className="flex flex-wrap justify-center gap-6 text-navy/70 text-sm md:text-base">
+          <div className="flex flex-wrap justify-center gap-6 text-secondary text-sm md:text-base font-body">
             <div className="flex items-center gap-2">
-              <Clock className="w-4 h-4 text-primary" />
+              <Clock className="w-4 h-4 text-accent" />
               <span className="font-semibold">12+ Years</span>
             </div>
             <div className="flex items-center gap-2">
-              <Building2 className="w-4 h-4 text-primary" />
+              <Building2 className="w-4 h-4 text-accent" />
               <span className="font-semibold">100+ Projects</span>
             </div>
             <div className="flex items-center gap-2">
-              <Users className="w-4 h-4 text-primary" />
+              <Users className="w-4 h-4 text-accent" />
               <span className="font-semibold">Fortune 500 Clients</span>
             </div>
             <div className="flex items-center gap-2">
-              <TrendingUp className="w-4 h-4 text-primary" />
+              <TrendingUp className="w-4 h-4 text-accent" />
               <span className="font-semibold">Global Teams</span>
             </div>
           </div>
@@ -112,16 +112,16 @@ function EnterpriseProjects() {
             >
               {/* Client Name */}
               <div className="mb-4">
-                <h3 className="text-2xl font-bold text-primary mb-2">
+                <h3 className="text-xl font-heading font-bold text-primary mb-2">
                   {project.client}
                 </h3>
-                <div className="inline-block bg-lightmint text-primary px-3 py-1 rounded-full text-xs font-semibold">
+                <div className="inline-block bg-highlight text-accent px-3 py-1 rounded-full text-xs font-semibold font-body">
                   {project.platform}
                 </div>
               </div>
 
               {/* Scope */}
-              <p className="text-navy/70 text-sm mb-4 leading-relaxed">
+              <p className="text-secondary text-sm mb-4 leading-relaxed font-body">
                 {project.scope}
               </p>
 
@@ -129,13 +129,13 @@ function EnterpriseProjects() {
               <div className="mt-auto">
                 <div className="flex items-center gap-2 mb-3">
                   <Zap className="w-4 h-4 text-accent" />
-                  <h4 className="font-bold text-orange text-sm">Key Highlights</h4>
+                  <h4 className="font-heading font-bold text-navy text-sm">Key Highlights</h4>
                 </div>
                 <ul className="space-y-2">
                   {project.highlights.map((highlight, i) => (
-                    <li key={i} className="flex items-start gap-2 text-sm">
+                    <li key={i} className="flex items-start gap-2 text-sm font-body">
                       <span className="text-accent font-bold mt-0.5">•</span>
-                      <span className="text-navy/80">{highlight}</span>
+                      <span className="text-secondary">{highlight}</span>
                     </li>
                   ))}
                 </ul>
@@ -146,7 +146,7 @@ function EnterpriseProjects() {
 
         {/* Bottom Note */}
         <div className="mt-12 text-center">
-          <p className="text-sm text-navy/60 italic">
+          <p className="text-sm text-secondary italic font-body">
             Selected from 100+ enterprise projects delivered
           </p>
         </div>

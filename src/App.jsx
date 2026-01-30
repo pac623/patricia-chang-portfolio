@@ -7,6 +7,7 @@ import Transformations from './components/sections/Transformations'
 import EnterpriseProjects from './components/sections/EnterpriseProjects'
 import ThoughtLeadership from './components/sections/ThoughtLeadership'
 import About from './components/sections/About'
+import FunFacts from './components/sections/FunFacts'
 import Contact from './components/sections/Contact'
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
 
         {/* About Section */}
         <About />
+
+        {/* Fun Facts Section */}
+        <FunFacts />
 
         {/* Contact Section */}
         <Contact />

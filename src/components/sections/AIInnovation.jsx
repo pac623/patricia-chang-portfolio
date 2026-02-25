@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Lightbulb, Code, TrendingUp, ArrowRight, AlertCircle, BookOpen, Briefcase, ChevronDown, ChevronUp, Bot, Shield, Layers } from 'lucide-react';
+import { Lightbulb, Code, TrendingUp, ArrowRight, AlertCircle, BookOpen, Briefcase, ChevronDown, ChevronUp, Bot, Shield, Layers, Zap } from 'lucide-react';
 
 function AIInnovation() {
   const [openCaseStudy, setOpenCaseStudy] = useState(null);
@@ -123,7 +123,96 @@ function AIInnovation() {
             </div>
           </div>
 
-          {/* Card 2: PMO Intelligence Dashboard */}
+          {/* Card 2: CSM Post-Call Intelligence Workflow */}
+          <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6 border border-gray-100">
+            <div className="flex flex-col h-full">
+              {/* NEW Badge */}
+              <div className="mb-4">
+                <span className="bg-accent/10 text-accent text-xs font-bold px-3 py-1 rounded-full font-heading">
+                  NEW
+                </span>
+              </div>
+
+              {/* Header */}
+              <div className="mb-4">
+                <h3 className="text-xl md:text-2xl font-heading font-bold text-navy mb-2">
+                  CSM Post-Call Intelligence Workflow
+                </h3>
+                <p className="text-secondary italic font-body">
+                  AI-Powered Workflow Orchestration
+                </p>
+              </div>
+
+              {/* The Gap */}
+              <div className="mb-4">
+                <div className="flex items-start gap-2 mb-1">
+                  <Lightbulb className="text-primary w-4 h-4 mt-1 flex-shrink-0" />
+                  <h4 className="font-heading font-semibold text-navy text-sm">The Gap</h4>
+                </div>
+                <p className="text-secondary text-sm ml-6 font-body">
+                  30–45 minutes of post-call admin work after every CSM call — manual, repetitive, and spread across disconnected tools.
+                </p>
+              </div>
+
+              {/* What I Built */}
+              <div className="mb-4">
+                <div className="flex items-start gap-2 mb-1">
+                  <Zap className="text-primary w-4 h-4 mt-1 flex-shrink-0" />
+                  <h4 className="font-heading font-semibold text-navy text-sm">What I Built</h4>
+                </div>
+                <p className="text-secondary text-sm ml-6 font-body">
+                  A cross-system automation pipeline: Clari call data → Staircase AI sentiment → Gemini processing → Gainsight + Gmail output. Email tone auto-adapts based on customer relationship health. Built on both n8n and ActivePieces to demonstrate platform-agnostic architecture.
+                </p>
+              </div>
+
+              {/* Pipeline Flow */}
+              <div className="mb-4 bg-highlight rounded-lg p-4">
+                <p className="text-xs font-heading font-semibold text-navy mb-2">Pipeline Flow:</p>
+                <div className="grid grid-cols-2 gap-2 text-xs font-body text-secondary">
+                  <div className="flex items-center gap-1">
+                    <Zap className="w-3 h-3 text-accent" />
+                    <span>Clari call data</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <Zap className="w-3 h-3 text-accent" />
+                    <span>Staircase AI sentiment</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <Zap className="w-3 h-3 text-accent" />
+                    <span>Gemini processing</span>
+                  </div>
+                  <div className="flex items-center gap-1 col-span-2">
+                    <Zap className="w-3 h-3 text-accent" />
+                    <span>Gainsight + Gmail output</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Tech Stack */}
+              <div className="mb-4">
+                <div className="flex flex-wrap gap-1">
+                  {['n8n', 'ActivePieces', 'Gemini AI', 'Clari', 'Staircase AI', 'Gainsight', 'Gmail API'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="px-2 py-1 bg-lightgray text-primary text-xs rounded-full font-body"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* Callout — no external link */}
+              <div className="mt-auto">
+                <div className="w-full bg-highlight border border-accent/20 px-4 py-3 rounded-lg font-heading font-semibold text-sm text-center text-accent flex items-center justify-center gap-2">
+                  <Zap className="w-4 h-4" />
+                  Cross-platform build completed in under 48 hours
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Card 3: PMO Intelligence Dashboard */}
           <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 p-6 border border-gray-100">
             <div className="flex flex-col h-full">
               {/* Header */}

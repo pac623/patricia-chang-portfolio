@@ -10,6 +10,8 @@ function ToolsTechnologies() {
         { label: "Agentic AI", items: ["Multi-Agent Systems", "Orchestration", "MCP"] },
         { label: "Frameworks", items: ["CrewAI", "LangChain"] },
         { label: "Tools", items: ["Claude Code", "Cline", "Claude Cowork"] },
+        { label: "Enterprise AI Platforms", items: ["Claude for Enterprise", "ChatGPT Enterprise", "AWS Bedrock"] },
+        { label: "Automation & Orchestration", items: ["n8n", "ActivePieces", "Zapier", "Make"] },
         { label: "Practice", items: ["Advanced Prompt Engineering", "AI Prototyping"] }
       ]
     },

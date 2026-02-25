@@ -33,6 +33,23 @@ function FunFacts() {
           The Human Behind the Work
         </h2>
 
+        {/* Profile Photo */}
+        <div
+          style={{
+            width: '320px',
+            height: '240px',
+            borderRadius: '16px',
+            backgroundImage: 'url(/patricia.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            margin: '0 auto 32px auto',
+            border: '4px solid white',
+            boxShadow: '0 4px 15px rgba(0,0,0,0.1)'
+          }}
+          role="img"
+          aria-label="Patricia Chang"
+        />
+
         {/* Fun Facts Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {funFacts.map((fact, index) => {

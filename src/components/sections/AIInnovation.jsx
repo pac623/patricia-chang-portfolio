@@ -369,7 +369,7 @@ function AIInnovation() {
               {/* Buttons */}
               <div className="flex flex-col gap-2 mt-auto">
                 <a
-                  href="https://tag1-sales-dashboard.netlify.app"
+                  href="https://tag1-sales-dashboard.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-primary text-white px-4 py-3 rounded-lg font-heading font-semibold text-sm text-center 
